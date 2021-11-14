@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+#contact-list{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-list  ul{
+    list-style: none;
+    height: auto;
+    width: 500px;
+}
+
+li{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: aqua;
+    border: none;
+    border-bottom: 2px solid red;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 2px;
+    align-items: center;
+}
+
+.details{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.details p{
+    margin-left: 5px;
+}
+li:hover{
+    background-color: chartreuse;
+}
+form{
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+button{
+    padding: 2px 4px;
+    border-radius: 30px;
+    background-color: greenyellow;
+}
+
+input{
+    background-color: bisque;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid greenyellow;
+}
